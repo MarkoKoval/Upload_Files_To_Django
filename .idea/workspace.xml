@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2488f45c-fcb4-4ac7-81fe-8d3924788121" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../for_django_1-3/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../for_django_1-3/myproject/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/../for_django_1-3/myproject/manage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../for_django_1-3/myproject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../for_django_1-3/myproject/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../for_django_1-3/myproject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../for_django_1-3/myproject/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="2488f45c-fcb4-4ac7-81fe-8d3924788121" name="Default Changelist" comment="Could upload files and text async">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myproject/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/db.sqlite3" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -99,8 +93,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/myproject/myapp/templates/list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="34">
+              <caret line="49" column="16" lean-forward="true" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -135,8 +129,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="28" />
-    <option name="y" value="18" />
+    <option name="x" value="10" />
     <option name="width" value="1353" />
     <option name="height" value="1038" />
   </component>
@@ -190,7 +183,7 @@
       <option name="presentableId" value="Default" />
       <updated>1547811941074</updated>
       <workItem from="1547811942803" duration="2014000" />
-      <workItem from="1547815883774" duration="32352000" />
+      <workItem from="1547815883774" duration="32951000" />
     </task>
     <task id="LOCAL-00001" summary="Could upload files and text async">
       <created>1548186524235</created>
@@ -199,14 +192,44 @@
       <option name="project" value="LOCAL" />
       <updated>1548186524235</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Could upload files and text async">
+      <created>1548186711495</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1548186711495</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Could upload files and text async">
+      <created>1548187116604</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1548187116605</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Could upload files and text async">
+      <created>1548187165463</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1548187165463</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34366000" />
+    <option name="totallyTimeSpent" value="34965000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="23" y="15" width="1082" height="830" extended-state="0" />
+    <frame x="317" y="0" width="1082" height="830" extended-state="1" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17612524" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -218,17 +241,17 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3295129" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.48280802" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="8" sideWeight="0.49902153" visible="true" weight="0.48280802" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.42406878" />
-      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50097847" side_tool="true" visible="true" weight="0.48280802" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.42406878" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.3295129" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.3297456" />
       <window_info anchor="right" id="Database" order="4" weight="0.3297456" />
     </layout>
   </component>
@@ -328,8 +351,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/myproject/myapp/templates/list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="34">
+          <caret line="49" column="16" lean-forward="true" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
         </state>
       </provider>
     </entry>

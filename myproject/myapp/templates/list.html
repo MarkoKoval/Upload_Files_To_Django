@@ -42,7 +42,7 @@
     $(document).ready(function(){
     $('form').on('submit', function(e){
         e.preventDefault();
-        alert("he");
+        alert("hee");
         alert($('form').get(0));
         var data = new FormData($('form').get(0));
         var token = '{{csrf_token}}';
