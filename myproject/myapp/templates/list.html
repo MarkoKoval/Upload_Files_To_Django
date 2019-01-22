@@ -19,8 +19,9 @@
         {% endif %}
 
         <!-- Upload form. Note enctype attribute! -->
-        <form id = "your_form_id" action="{% url "list" %}" method="post" enctype="multipart/form-data">
+        <form name = "form" id = "your_form_id" action="{% url "list" %}" method="post" enctype="multipart/form-data">
             {% csrf_token %}
+                 <input type = "text" width=50px name="uu"/>
             <p>{{ form.non_field_errors }}</p>
 
             <p>{{ form.docfile.label_tag }} {{ form.docfile.help_text }}</p>
@@ -33,11 +34,31 @@
             <p><input type="submit" value="Upload"/></p>
         </form>
 
-        <input type = "text" width=50px />
+
     </body>
 
 <script type='text/javascript'>
 
+    $(document).ready(function(){
+    $('form').on('submit', function(e){
+        e.preventDefault();
+        alert("he");
+        alert($('form').get(0));
+        var data = new FormData($('form').get(0));
+        var token = '{{csrf_token}}';
+         var form = $('#your_form_id');
+        $.ajax({
+            headers: { "X-CSRFToken": token },
+            url: $('form').attr('action'),
+            method: "POST",
+            data: data,
+            success: function(data){alert("hello");},
+            error: function(data){  alert("he");},
+            processData: false,
+            contentType: false,
+        });
+    });
+});
 /*
      $(document).ready(function() {
          var form = $('#your_form_id');
